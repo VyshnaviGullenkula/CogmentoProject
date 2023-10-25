@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TechnoMile-Test-Automation" parallel="methods" thread-count="10" verbose="1" data-provider-thread-count="8">
+    <test name="Regression tests">
+        <classes>
+            <!-- <class name="com.technomile.grc.testcases.RegressionTests"/> -->
+            <class name="com.training.testcases.TasksPage.CreateTaskPageWithRequiredDetails"></class>
+            <class name="com.training.testcases.TasksPage.DeleteTask"></class>
+            <class name="com.training.testcases.TasksPage.TasksPageWithOutMandatoryDetails"></class>
+            <class name="com.training.testcases.TasksPage.CharacterExceedsLimit"></class>
+        </classes>
+    </test>
+</suite>
